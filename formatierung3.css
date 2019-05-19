@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'Aniron';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aniron'), url('fonts/anirm___.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Aniron Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aniron Bold'), url('fonts/anirb___.woff') format('woff');
+}
+
+body {
+	background-image: url("images/backaar1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+main {
+	background-image: url("images/papyrus5.png");
+	width: 900px;
+	min-width: 900px;
+	height: 768px;
+	margin: 0% auto;
+	margin-top: -120px;
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+	overflow-y: scroll;
+	overflow-x: visible;
+	background-attachment: local;
+	scrollbar-width: none;
+	display: grid;
+	grid-template-rows: 100px 100px 500px 500px 100px 700px 500px 700px 200px;
+	grid-template-columns: 10% 40% 40% 10%;
+	justify-items: center;
+	align-items: center;
+	grid-gap: 50px 0px;
+}
+
+.rolle {
+	margin: 0% auto;
+	margin-top: 10px;
+	display: grid;
+	width: 928px;
+	min-width: 928px;
+	height: 150px;
+	grid-template-rows: 150px;
+	grid-template-columns: 100%;
+}
+
+
+.rolle2 {
+	margin: -20px auto;
+	display: grid;
+	width: 928px;
+	min-width: 928px;
+	height: 150px;
+	grid-template-rows: 150px;
+	grid-template-columns: 100%;
+}
+
+#mitte {
+	background-image: url("images/bild17.png");
+	background-size: 100% 100%;
+	grid-row: 1/2;
+	grid-column: 1/2;
+	z-index: 2;
+	filter: drop-shadow(0px 20px 10px black);
+}
+
+
+#mitte2 {
+	background-image: url("images/bild16.png");
+	background-size: 100% 100%;
+	grid-row: 1/2;
+	grid-column: 1/2;
+	z-index: 2;
+	filter: drop-shadow(0px -20px 10px black);
+}
+
+h1 {
+	text-align: center;
+	grid-row: 1/2;
+	grid-column: 2/4;
+	font-size: 2.6rem;
+	text-shadow: 0px 0px 10px white;
+	font-family: "Aniron Bold";
+	padding-top: 200px;
+}
+
+
+h2 {
+	text-align: center;
+	padding-top: 100px;
+	font-size: 2.0rem;
+	font-family: "Aniron Bold";
+	text-shadow: 0px 0px 10px white;
+}
+
+
+p {
+	text-align: justify;
+	width: 90%;
+	display: inline-block;
+	font-size: 0.6rem;
+	text-shadow: 0px 0px 5px white;
+	font-family: "Aniron Bold";
+}
+
+.bild {
+	width: 90%;
+}
+
+
+#tragr {
+	position: fixed;
+	top: 260px;
+	right: 10%;
+}
+
+#eins {
+	grid-column: 3/4;
+	grid-row: 3/4;
+}
+
+
+#zwei {
+	grid-column: 2/3;
+	grid-row: 4/5;
+}
+
+#drei {
+	grid-column: 3/4;
+	grid-row: 6/7;
+}
+
+#vier {
+	grid-column: 2/3;
+	grid-row: 7/8;
+}
+
+
+#fuenf {
+	grid-column: 3/4;
+	grid-row: 8/9;
+}
+
+#sechs {
+	grid-column: 2/3;
+	grid-row: 10/11;
+}
+
+#sieben {
+	grid-column: 3/4;
+	grid-row: 11/12;
+	border: 5px double black;
+}
+
+#acht {
+	grid-column: 2/3;
+	grid-row: 12/13;
+	border: 5px double black;
+}
+
+#neun {
+	grid-column: 3/4;
+	grid-row: 13/14;
+	border: 5px double black;
+}
+
+#zehn {
+	grid-column: 2/3;
+	grid-row: 14/15;
+	border: 5px double black;
+}
+
+#elf {
+	grid-column: 3/4;
+	grid-row: 15/16;
+	border: 5px double black;
+}
+
+#zwoelf {
+	grid-column: 2/3;
+	grid-row: 16/17;
+	border: 5px double black;
+}
+
+#dreizehn {
+	grid-column: 3/4;
+	grid-row: 17/18;
+	border: 5px double black;
+}
+
+#vierzehn {
+	grid-column: 2/4;
+	grid-row: 18/19;
+}
+
+#schrift1 {
+	grid-column:2/4;
+	grid-row:2/3;
+}
+
+#absatz1 {
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+
+#absatz2 {
+	grid-column: 3/4;
+	grid-row: 4/5;
+}
+
+#schrift2 {
+	grid-column: 2/4;
+	grid-row: 5/6;
+}
+
+#absatz3 {
+	grid-column: 2/3;
+	grid-row: 6/7;
+}
+
+#absatz4 {
+	grid-column: 3/4;
+	grid-row: 7/8;
+}
+
+#schrift3 {
+	grid-column: 2/4;
+	grid-row: 9/10;
+}
+
+#absatz5 {
+	grid-column: 2/3;
+	grid-row: 8/9;
+}
+
+#absatz6 {
+	grid-column: 3/4;
+	grid-row: 10/11;
+}
+
+#absatz7 {
+	grid-column: 2/3;
+	grid-row: 11/12;
+}
+
+#absatz8 {
+	grid-column: 3/4;
+	grid-row: 12/13;
+}
+
+#absatz9 {
+	grid-column: 2/3;
+	grid-row: 13/14;
+}
+
+#absatz10 {
+	grid-column: 3/4;
+	grid-row: 14/15;
+}
+
+#absatz11 {
+	grid-column: 2/3;
+	grid-row: 15/16;
+}
+
+#absatz12 {
+	grid-column: 3/4;
+	grid-row: 16/17;
+}
+
+#absatz13 {
+	grid-column: 2/3;
+	grid-row: 17/18;
+}
+
