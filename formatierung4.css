@@ -14,19 +14,18 @@
 
 body {
 	background-image: url("images/backaar1.png");
-	background-size: cover;
+	background-size: 1920px 1080px;
 	background-repeat: no-repeat;
 
 }
 
 
-main {
+.zentrum {
 	background-image: url("images/papyrus5.png");
 	width: 900px;
 	min-width: 900px;
-	height: 768px;
+	height: 100%;
 	margin: 0% auto;
-	margin-top: -120px;
 	background-size: 100% auto;
 	background-repeat: repeat-y;
 	overflow-y: scroll;
@@ -40,29 +39,63 @@ main {
 	align-items: center;
 	grid-gap: 50px 0px;
 	filter: drop-shadow(0px 0px 20px black);
+	transition: height 2s;
+	grid-row: 2/3;
+	grid-column: 1/2;
+	position: relative;
+	bottom: 80px;
 }
+
+form button {
+	margin: 0% auto;
+	height: 180px;
+	margin-top: 300px;
+	display:grid;
+	grid-template-rows: 150px 100px 150px;
+	border: none;
+	background: none;
+	transition: grid-template-rows 2s, margin-top 2s, height 2s;
+		
+}
+
+button:focus {
+	grid-template-rows: 150px 680px 150px;
+	height: 760px;
+	margin-top: 0px;
+}
+button: focus .zentrum {
+	height: 760px;
+}	
 
 .rolle {
 	margin: 0% auto;
-	margin-top: 10px;
+	margin-top: 0px;
 	display: grid;
 	width: 928px;
 	min-width: 928px;
 	height: 150px;
 	grid-template-rows: 150px;
 	grid-template-columns: 100%;
+	grid-row: 3/4;
+	grid-column: 1/2;
+	position: relative;
+	bottom: 80px;
 }
 
 
 .rolle2 {
-	margin: -20px auto;
+	margin: 0% auto;
 	display: grid;
 	width: 928px;
 	min-width: 928px;
 	height: 150px;
 	grid-template-rows: 150px;
 	grid-template-columns: 100%;
+	grid-column: 1/2;
+	grid-row: 1/2;
 }
+
+	
 
 #mitte {
 	background-image: url("images/bild17.png");
@@ -90,7 +123,7 @@ h1 {
 	font-size: 2.6rem;
 	text-shadow: 0px 0px 10px white;
 	font-family: "Aniron Bold";
-	padding-top: 200px;
+	padding-top: 150px;
 }
 
 
@@ -414,3 +447,4 @@ p {
 	grid-column: 3/4;
 	grid-row: 36/37;
 }
+
