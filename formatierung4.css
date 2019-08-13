@@ -9,7 +9,7 @@
     font-family: 'Aniron Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Aniron Bold'), url('fonts/anirb___.woff') format('woff');
+    src: url('fonts/anirb___.woff') format('woff');
 }
 
 body {
