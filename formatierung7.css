@@ -2,7 +2,7 @@
     font-family: "Vinland";
     font-style: normal;
     font-weight: normal;
-    src: local ("Vinland"), url("vinland.ttf");
+    src: local ("Vinland"), url("fonts/vinland.ttf");
 }
 
 .hintergrund {
