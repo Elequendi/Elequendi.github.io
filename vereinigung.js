@@ -77,8 +77,8 @@ $(document).ready(()=> {
 	setTimeout(intro_play, 6000);
 	$text.hide().delay(12000).fadeTo(4000,1);
 	$iberisch.hide().delay(9000).fadeTo(2000,1);
-	$hintergrund2.hide().delay(26000).fadeTo(6000,1);
-	$knopf.hide().delay(30000).fadeTo(2000,1);
+	$hintergrund2.hide().delay(24000).fadeTo(6000,1);
+	$knopf.hide().delay(28000).fadeTo(2000,1);
 	$knopf.on("mouseover",()=>{
 		$knopf.addClass("hover");
 		}).on("mouseleave", ()=> {
