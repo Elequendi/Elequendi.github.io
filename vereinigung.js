@@ -74,7 +74,6 @@ $(document).ready(()=> {
 		};
 	$kapitel.hide().delay(2000).fadeTo(2000,1).delay(2000).fadeOut(2000);
 	$text.text(arr1[0]);
-	setTimeout(intro_play, 6000);
 	$text.hide().delay(12000).fadeTo(4000,1);
 	$iberisch.hide().delay(9000).fadeTo(2000,1);
 	$hintergrund2.hide().delay(24000).fadeTo(6000,1);
@@ -95,6 +94,7 @@ $(document).ready(()=> {
 			setTimeout(funktion1,2500);
 				};
 		if (counter === 1) {
+			setTimeout(intro_play, 0);
 			$iberisch.css("backgroundImage","url('images/stein3.png')");
 			$hintergrund.css("backgroundImage","url('images/oppfertig.png')");
 			$hintergrund2.fadeTo(1,1).delay(14000).fadeOut(6000);
