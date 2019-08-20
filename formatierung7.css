@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Vinland";
+    font-style: normal;
+    font-weight: normal;
+    src: local ("Vinland"), url("vinland.ttf");
+}
+
+.hintergrund {
+	background-image: url("images/oppruine2.png");
+	background-size: cover;
+	margin: -20px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.hintergrund2 {
+	background-image: url("images/oppleer.png");
+	background-size: cover;
+	margin: -20px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+}
+
+.kapitel {
+	display: inline-block;
+	left: 100px;
+	top: 100px;
+	position: absolute;
+	font-size: 60px;
+	opacity: 0;
+	z-index: 100;
+}
+
+.text {
+	display: inline-block;
+	width: 500px;
+	height: 800px;
+	background-image: url("images/stein1.png");
+	background-size: 100% 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	left: 100px;
+	top: 18px;
+	position: absolute;
+	font-size: 58px;
+	font-family: "Vinland";
+	text-shadow: 0px 0px 1px black;
+	filter: drop-shadow(0px 0px 5px black);
+	opacity: 0;
+	text-align: justify;
+	z-index: 100;
+}
+
+.iberisch {
+	display: inline-block;
+	width: 500px;
+	height: 800px;
+	left: 100px;
+	top: 60px;
+	background-image: url("images/stein2.png");
+	background-size: 100% 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	position: absolute;
+	filter: drop-shadow(0px 0px 5px black);
+	opacity: 0;
+	text-align: justify;
+	z-index: 99;
+}
+
+.knopf {
+	position: absolute;
+	opacity: 1;
+	left: 610px;
+	top: 85%;
+	background-image: url("images/varul.png");
+	background-size: 100% 100%;
+	width: 100px;
+	height: 100px;
+	z-index: 100;
+}
+
+.hover {
+	filter: drop-shadow(0px 0px 8px white);
+}
+
+@keyframes druck {
+	from {
+		transform: rotate(0deg);
+		opacity: 1;
+	}
+	to {
+		transform: rotate(20deg);
+		opacity: 0;
+	}
+}
+
+.druck {
+		animation-name: druck;
+		animation-duration: 1s;
+}
