@@ -36,15 +36,15 @@
 
 .text {
 	display: inline-block;
-	width: 500px;
-	height: 800px;
+	width: 26%;
+	height: 83%;
 	background-image: url("images/stein1.png");
 	background-size: 100% 100%;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 20px;
 	left: 100px;
-	top: 18px;
+	top: 20px;
 	position: absolute;
 	font-size: 58px;
 	font-family: "Vinland";
@@ -57,8 +57,8 @@
 
 .iberisch {
 	display: inline-block;
-	width: 500px;
-	height: 800px;
+	width: 26%;
+	height: 83%;
 	left: 100px;
 	top: 60px;
 	background-image: url("images/stein2.png");
@@ -76,7 +76,7 @@
 .knopf {
 	position: absolute;
 	opacity: 1;
-	left: 610px;
+	right: 63%;
 	top: 85%;
 	background-image: url("images/varul.png");
 	background-size: 100% 100%;
