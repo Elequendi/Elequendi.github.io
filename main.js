@@ -5,9 +5,9 @@ $(document).ready(()=> {
 			$kord.addClass("finger");
 	});
 	let counter = 0;
-	const Arr2 = ["ptol1.html","Vard1.html"];
-	const Arr1 = ["url('images/pharos.png')", "url('images/stone1.png')"];
-	const Arr3 = ["Das Reich am Nil","Das Ende des Marsches"];
+	const Arr2 = ["ptol1.html","Vard1.html","ashurs_erben.html"];
+	const Arr1 = ["url('images/pharos.png')", "url('images/stone1.png')","url('images/assyr48.jpg')"];
+	const Arr3 = ["Das Reich am Nil","Das Ende des Marsches","Ashurs Erben"];
 	$kord.on("click", () => {
 			counter += 1;
 			if (counter > (Arr1.length - 1)) {
