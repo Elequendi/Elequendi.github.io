@@ -1,0 +1,84 @@
+.background {
+	background-image: url("images/assyr2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 99%;
+	height: 100%;
+}
+
+.bild {
+	background-color: white;
+	display: block;
+	position: relative;
+	height: 18%;
+	background-image: url("images/schrift3.png");
+	background-size: 100% 100%;
+	border-radius: 16px;
+	border: 3px ridge black;
+	align-self: stretch;
+	filter: drop-shadow(0px 0px 5px black);
+	transition: background-size 0.8s;
+	margin: 28px 0px;
+}
+
+.bildaktiv {
+	background-size: 120% 120%;	
+}
+
+.unterschrift {
+	text-align: center;
+	font-size: 1.4em;
+	position: relative;
+	top: 25%;
+	color: white;
+}
+
+.rahmen {
+	height: 90%;
+	width: 20%;
+	min-width: 200px;
+	display: inline-block;
+	position: relative;
+	left: 60%;
+}
+
+.rahmen2 {
+	height: 90%;
+	width: 15%;
+	min-width: 150px;
+	display: inline-block;
+	position: relative;
+	left: 60%;
+}
+
+#eins {
+	background-image: url("images/assyr5.jpg");
+}
+
+#erstens {
+	opacity: 0;
+}
+
+#asche {
+	background-image: url("images/assyr47.jpg");
+}
+
+.aar {
+	display: inline-block;
+	opacity: 1;
+	position: absolute;
+	left: 3%;
+	top: 5%;
+	overflow-y: scroll;
+	overflow-x: visible;
+	width: 75%;
+	height: 0%;
+	z-index: 100;
+	min-width: 400px;
+}
+
+.aar_bild {
+	overflow-x: visible;
+	display: block;
+	width: 100%;
+}
