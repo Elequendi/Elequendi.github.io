@@ -1,4 +1,4 @@
-$(document).ready (()=> {
+ï»¿$(document).ready (()=> {
 	const $knopf1 = $(".knopf1");
 	const $nishrail = $(".nishrail");
 	const $nishrail1 = $(".nishrail1");
@@ -7,7 +7,7 @@ $(document).ready (()=> {
 	const $bilder1 = $(".bilder1");
 	const $text = $(".text");
 	
-	array1 = ["Shamashs Heimstadt ward entehrt.", "Lang sind geflossen die Wasser der Ströme,", "Heim gerufen ins Meer,", "fern und glitzernd unter der Sonne.", "Die Erben Ilu-Schumas sind verstreut", "Wie Sand in der Wüste.", "Die Ziqqurrat steht leer.", "Das stolze Niniue ward gebrochen.", "Doch unter der Sonne Glut,", "entzündet ein Funke sich,", "brennt und lodert und strahlt,", "weit hinaus in die Welt.", "Denn die Erben Ilu-schumas, ", "die Kinder Ashurs,", "sie erheben sich aus dem Staub.", "Und erstehen wird wieder,", "aus Asche und Tod,", "strahelnbringend und ehrfurchtgebietend,", "Niniue die erhabene", "alt wie die Zeit", "und stark wie die Sterne.", "Und es wird herrschen,", "wo sein Auge blickt", "und sein Sinn sich wendet,", "Ashur in all seiner Pracht.", "Und der Könige Stimme,", "mit Weisheit gewogen,", "wird sein der Völker Gebot."];
+	array1 = ["Shamashs Heimstadt ward entehrt.", "Lang sind geflossen die Wasser der StrÃ¶me,", "Heim gerufen ins Meer,", "fern und glitzernd unter der Sonne.", "Die Erben Ilu-Schumas sind verstreut", "Wie Sand in der WÃ¼ste.", "Die Ziqqurrat steht leer.", "Das stolze Niniue ward gebrochen.", "Doch unter der Sonne Glut,", "entzÃ¼ndet ein Funke sich,", "brennt und lodert und strahlt,", "weit hinaus in die Welt.", "Denn die Erben Ilu-schumas, ", "die Kinder Ashurs,", "sie erheben sich aus dem Staub.", "Und erstehen wird wieder,", "aus Asche und Tod,", "strahelnbringend und ehrfurchtgebietend,", "Niniue die erhabene", "alt wie die Zeit", "und stark wie die Sterne.", "Und es wird herrschen,", "wo sein Auge blickt", "und sein Sinn sich wendet,", "Ashur in all seiner Pracht.", "Und der KÃ¶nige Stimme,", "mit Weisheit gewogen,", "wird sein der VÃ¶lker Gebot."];
 	
 	array2 = ["url('images/assyr24.jpg')","url('images/assyr25.jpg')", "url('images/assyr27.jpg')", "url('images/tenor.gif')", "url('images/assyr30.jpg')", "url('images/assyr34.jpg')", "url('images/assyr39.jpg')", "url('images/tenor.gif')", "url('images/assyr37.jpg')", "url('images/fire.gif')", "url('images/fire3.gif')", "url('images/tenor.gif')", "url('images/assyr38.jpg')", "url('images/tenor.gif')", "url('images/assyr41.jpg')", "url('images/assyr40.jpg')", "url('images/tenor.gif')", "url('images/assyr42.jpg')", "url('images/tenor.gif')", "url('images/assyr43.jpg')", "url('images/assyr45.jpg')", "url('images/tenor.gif')", "url('images/assyr46.jpg')"];
 	
@@ -58,7 +58,7 @@ $(document).ready (()=> {
 			$nishrail2.fadeTo(0,0).delay(1000).fadeTo(0,1);
 			$bilder2.fadeTo(0,1).delay(8000).fadeTo(7000,0);
 			$bilder1.fadeTo(0,0).delay(8000).fadeTo(7000,1);
-			$text.text("Ashurs Häuser sind gefallen.")
+			$text.text("Ashurs HÃ¤user sind gefallen.")
 			$text.fadeTo(0,0).delay(5000).fadeTo(3000,1).delay(3000).fadeTo(3000,0);
 			setTimeout(bildertausch,0);
 			setTimeout(hintergrund_anders,24000);
