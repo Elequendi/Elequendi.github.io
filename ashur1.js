@@ -10,11 +10,35 @@ $(document).ready (()=> {
 					}
 	})
 	$("#asche").click(function(){
-		if ($(".aar").css("height") < "1") {
-			$(".aar").css("height", "90%");
-			$(".rahmen").fadeTo(0,0);}
+		if ($(".aar_bild").attr("src") != "images/assyr-aar1.jpg") {
+			if($(".aar").css("height") > "1"){
+				$(".aar_bild").attr("src", "images/assyr-aar1.jpg");}
+			else {
+				$(".aar_bild").attr("src", "images/assyr-aar1.jpg");
+				$(".aar").css("height", "90%");
+				$(".rahmen").fadeTo(0,0);}}
 		else {
-			$(".aar").css("height", "0%")
-			$(".rahmen").fadeTo(0,1);}
+			if ($(".aar").css("height") < "1") {
+				$(".aar").css("height", "90%");
+				$(".rahmen").fadeTo(0,0);}
+			else {
+				$(".aar").css("height", "0%")
+				$(".rahmen").fadeTo(0,1);}}
+	})
+	$("#flamme").click(function(){
+		if ($(".aar_bild").attr("src") != "images/assyr-aar2.jpg") {
+			if($(".aar").css("height") > "1"){
+				$(".aar_bild").attr("src", "images/assyr-aar2.jpg");}
+			else {
+				$(".aar_bild").attr("src", "images/assyr-aar2.jpg");
+				$(".aar").css("height", "90%");
+				$(".rahmen").fadeTo(0,0);}}
+		else {
+			if ($(".aar").css("height") < "1") {
+				$(".aar").css("height", "90%");
+				$(".rahmen").fadeTo(0,0);}
+			else {
+				$(".aar").css("height", "0%")
+				$(".rahmen").fadeTo(0,1);}}
 	})
 })
