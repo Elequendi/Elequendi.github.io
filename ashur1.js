@@ -41,4 +41,20 @@ $(document).ready (()=> {
 				$(".aar").css("height", "0%")
 				$(".rahmen").fadeTo(0,1);}}
 	})
+	$("#licht").click(function(){
+		if ($(".aar_bild").attr("src") != "images/assyr-aar3.jpg") {
+			if($(".aar").css("height") > "1"){
+				$(".aar_bild").attr("src", "images/assyr-aar3.jpg");}
+			else {
+				$(".aar_bild").attr("src", "images/assyr-aar3.jpg");
+				$(".aar").css("height", "90%");
+				$(".rahmen").fadeTo(0,0);}}
+		else {
+			if ($(".aar").css("height") < "1") {
+				$(".aar").css("height", "90%");
+				$(".rahmen").fadeTo(0,0);}
+			else {
+				$(".aar").css("height", "0%")
+				$(".rahmen").fadeTo(0,1);}}
+	})
 })
